@@ -1,0 +1,40 @@
+<LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical"
+    android:background="#999"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/nme"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Admission no"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="number" android:id="@+id/an"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="College"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:id="@+id/clg"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="textEmailAddress" android:id="@+id/eid"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Mobile no"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:inputType="number" android:id="@+id/mobn"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="SUBMIT" android:id="@+id/sb" android:background="#099"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="Next" android:id="@+id/ne" android:background="#009"/>
+</LinearLayout>
